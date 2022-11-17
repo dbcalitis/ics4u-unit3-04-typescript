@@ -17,7 +17,7 @@ const prompt = promptSync()
  * @param {number} startPeg the starting peg.
  * @param {number} endPeg the ending peg.
  */
-function hanoi(ndisks: number, startPeg: number = 1, endPeg: number = 3): void {
+function hanoi (ndisks: number, startPeg: number = 1, endPeg: number = 3): void {
   if (ndisks === 1) {
     console.log(`Move disk 1 from peg ${startPeg} to the peg ${endPeg}`)
   } else {
